@@ -49,7 +49,7 @@ public class DateUtil {
         return t;
     }
 
-//    public static void main(String[] args) {
+    public static void main(String[] args) {
 //        String timeStamp = timeStamp();
 //        System.out.println("timeStamp="+timeStamp); //运行输出:timeStamp=1470278082
 //        System.out.println(System.currentTimeMillis());//运行输出:1470278082980
@@ -60,5 +60,6 @@ public class DateUtil {
 //
 //        String timeStamp2 = date2TimeStamp(date, "yyyy-MM-dd HH:mm:ss");
 //        System.out.println(timeStamp2);  //运行输出:1470278082
-//    }
+        String tst = "tst";
+    }
 }
