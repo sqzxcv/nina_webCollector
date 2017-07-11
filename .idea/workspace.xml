@@ -47,6 +47,24 @@
         <option name="myItemType" value="com.intellij.database.view.DbNodeDescriptor" />
       </PATH_ELEMENT>
     </PATH>
+    <PATH>
+      <PATH_ELEMENT>
+        <option name="myItemId" />
+        <option name="myItemType" value="com.intellij.database.view.DbRootNodeDescriptor" />
+      </PATH_ELEMENT>
+      <PATH_ELEMENT>
+        <option name="myItemId" value="MySQL - Nina@localhost" />
+        <option name="myItemType" value="com.intellij.database.view.DbNodeDescriptor" />
+      </PATH_ELEMENT>
+      <PATH_ELEMENT>
+        <option name="myItemId" value="Nina" />
+        <option name="myItemType" value="com.intellij.database.view.DbNodeDescriptor" />
+      </PATH_ELEMENT>
+      <PATH_ELEMENT>
+        <option name="myItemId" value="document" />
+        <option name="myItemType" value="com.intellij.database.view.DbNodeDescriptor" />
+      </PATH_ELEMENT>
+    </PATH>
   </component>
   <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
   <component name="FavoritesManager">
@@ -54,36 +72,26 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="MainController.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="MainController.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/nina/webCollector/controller/MainController.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.85530084">
-              <caret line="62" column="38" selection-start-line="62" selection-start-column="38" selection-end-line="62" selection-end-column="38" />
-              <folding>
-                <element signature="e#676#677#0" expanded="true" />
-                <element signature="e#706#707#0" expanded="true" />
-              </folding>
+            <state vertical-scroll-proportion="0.0">
+              <caret line="43" column="2" selection-start-line="43" selection-start-column="2" selection-end-line="43" selection-end-column="2" />
+              <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="web.xml" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/web.xml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
-              <caret line="27" column="0" selection-start-line="27" selection-start-column="0" selection-end-line="27" selection-end-column="0" />
-              <folding>
-                <marker date="1499691348000" expanded="true" signature="90:1359" placeholder="..." />
-              </folding>
+      <file leaf-file-name="Nina.document" pinned="false" current-in-tab="false">
+        <entry file="dbDummy://dbtable:/b92469ea/07cd9240-d085-4837-917c-493a15bc6352/Nina..document">
+          <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
+            <state>
+              <filtering enabled="true" />
             </state>
           </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="demo.iml" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/demo.iml">
-          <provider selected="true" editor-type-id="text-editor">
+          <provider editor-type-id="text-editor">
             <state vertical-scroll-proportion="0.0">
-              <caret line="2" column="0" selection-start-line="2" selection-start-column="0" selection-end-line="2" selection-end-column="0" />
+              <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -93,19 +101,17 @@
         <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/mvc-dispatcher-servlet.xml">
           <provider selected="true" editor-type-id="text-editor">
             <state vertical-scroll-proportion="0.0">
-              <caret line="1" column="58" selection-start-line="1" selection-start-column="58" selection-end-line="1" selection-end-column="58" />
-              <folding>
-                <element signature="n#bean#0;n#beans#0;n#!!top" expanded="false" />
-              </folding>
+              <caret line="18" column="33" selection-start-line="18" selection-start-column="33" selection-end-line="18" selection-end-column="33" />
+              <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="spring-beans-4.2.xsd" pinned="false" current-in-tab="false">
-        <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-beans/4.2.2.RELEASE/spring-beans-4.2.2.RELEASE.jar!/org/springframework/beans/factory/xml/spring-beans-4.2.xsd">
+      <file leaf-file-name="web.xml" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/web.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
-              <caret line="49" column="8" selection-start-line="49" selection-start-column="8" selection-end-line="49" selection-end-column="8" />
+            <state vertical-scroll-proportion="0.17609046">
+              <caret line="12" column="14" selection-start-line="12" selection-start-column="14" selection-end-line="12" selection-end-column="14" />
               <folding />
             </state>
           </provider>
@@ -115,40 +121,60 @@
         <entry file="file://$PROJECT_DIR$/src/main/java/com/nina/webCollector/webCollector/LLWebCollector.java">
           <provider selected="true" editor-type-id="text-editor">
             <state vertical-scroll-proportion="0.0">
-              <caret line="10" column="0" selection-start-line="10" selection-start-column="0" selection-end-line="10" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="pom.xml" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/pom.xml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
-              <caret line="68" column="38" selection-start-line="68" selection-start-column="38" selection-end-line="68" selection-end-column="38" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="DateUtil.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/nina/webCollector/LLHelper/DateUtil.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
-              <caret line="48" column="17" selection-start-line="48" selection-start-column="17" selection-end-line="48" selection-end-column="17" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="MonitorWebsiteNews.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/nina/webCollector/webCollector/MonitorWebsiteNews.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
-              <caret line="52" column="0" selection-start-line="52" selection-start-column="0" selection-end-line="52" selection-end-column="0" />
+              <caret line="44" column="45" selection-start-line="44" selection-start-column="45" selection-end-line="44" selection-end-column="45" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="AbstractHandlerMethodAdapter.java" pinned="false" current-in-tab="false">
+        <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-webmvc/4.2.2.RELEASE/spring-webmvc-4.2.2.RELEASE-sources.jar!/org/springframework/web/servlet/mvc/method/AbstractHandlerMethodAdapter.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0">
+              <caret line="84" column="0" selection-start-line="84" selection-start-column="0" selection-end-line="84" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="spring-mybatis.xml" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/resources/spring-mybatis.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0">
+              <caret line="23" column="56" selection-start-line="23" selection-start-column="56" selection-end-line="23" selection-end-column="56" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="MYSQLManager.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/nina/webCollector/LLHelper/MYSQLManager.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0">
+              <caret line="64" column="0" selection-start-line="64" selection-start-column="0" selection-end-line="64" selection-end-column="0" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="method#getDefaultDBConnection#0;class#MYSQLManager#0" expanded="false" />
+                <element signature="method#getConnection#0;class#MYSQLManager#0" expanded="false" />
+                <element signature="method#read#0;class#MYSQLManager#0" expanded="false" />
+                <element signature="method#update#0;class#MYSQLManager#0" expanded="false" />
+                <element signature="method#delete#0;class#MYSQLManager#0" expanded="false" />
+                <element signature="method#closeResultSet#0;class#MYSQLManager#0" expanded="false" />
+                <element signature="method#closeStatement#0;class#MYSQLManager#0" expanded="false" />
+                <element signature="method#closeConnection#0;class#MYSQLManager#0" expanded="false" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Statement.java" pinned="false" current-in-tab="false">
+        <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_45.jdk/Contents/Home/src.zip!/java/sql/Statement.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0">
+              <caret line="89" column="8" selection-start-line="89" selection-start-column="8" selection-end-line="89" selection-end-column="8" />
+              <folding />
             </state>
           </provider>
         </entry>
@@ -185,18 +211,20 @@
         <option value="$PROJECT_DIR$/src/main/java/com/cenyol/example/LLHelper/MYSQLManager.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/cenyol/example/webCollector/MonitorWebsiteNews.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/nina/example/controller/MainController.java" />
-        <option value="$PROJECT_DIR$/src/main/resources/spring-mybatis.xml" />
         <option value="$PROJECT_DIR$/src/main/resources/generatorConfig.xml" />
         <option value="$PROJECT_DIR$/src/main/java/com/nina/webCollector/mapper/DocumentMapper.java" />
         <option value="$PROJECT_DIR$/src/main/resources/mapper/DocumentMapper.xml" />
         <option value="$PROJECT_DIR$/src/main/resources/mapper/TagmapMapper.xml" />
-        <option value="$PROJECT_DIR$/src/main/java/com/nina/webCollector/controller/MainController.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/nina/webCollector/webCollector/MonitorWebsiteNews.java" />
         <option value="$PROJECT_DIR$/src/main/resources/META-INF/persistence.xml" />
         <option value="$PROJECT_DIR$/pom.xml" />
         <option value="$PROJECT_DIR$/src/main/java/com/nina/webCollector/LLHelper/DateUtil.java" />
         <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/web.xml" />
+        <option value="$PROJECT_DIR$/src/main/java/com/nina/webCollector/webCollector/MonitorWebsiteNews.java" />
+        <option value="$PROJECT_DIR$/src/main/resources/spring-mybatis.xml" />
         <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/mvc-dispatcher-servlet.xml" />
+        <option value="$PROJECT_DIR$/src/main/java/com/nina/webCollector/LLHelper/MYSQLManager.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/nina/webCollector/controller/MainController.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/nina/webCollector/webCollector/LLWebCollector.java" />
       </list>
     </option>
   </component>
@@ -287,7 +315,7 @@
     <order />
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="-929" />
+    <option name="x" value="-928" />
     <option name="y" value="-1057" />
     <option name="width" value="1920" />
     <option name="height" value="1057" />
@@ -396,6 +424,10 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="main" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="resources" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -559,9 +591,9 @@
           </PATH>
         </subPane>
       </pane>
-      <pane id="Scope" />
-      <pane id="PackagesPane" />
       <pane id="Scratches" />
+      <pane id="PackagesPane" />
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -574,7 +606,7 @@
     <property name="restartRequiresConfirmation" value="true" />
     <property name="dynamic.classpath" value="false" />
     <property name="JPA.DatabaseSchemaImportDialog" value="c0cc93d0-8be0-4cfa-a804-adaee631058c" />
-    <property name="settings.editor.selected.configurable" value="preferences.keymap" />
+    <property name="settings.editor.selected.configurable" value="reference.projectsettings.compiler.javacompiler" />
     <property name="settings.editor.splitter.proportion" value="0.2" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="FullScreen" value="false" />
@@ -861,6 +893,9 @@
       <listeners />
       <method />
     </configuration>
+    <configuration default="true" type="Unknown" factoryName="Unknown">
+      <method />
+    </configuration>
     <configuration default="true" type="js.build_tools.gulp" factoryName="Gulp.js">
       <node-options />
       <gulpfile />
@@ -877,6 +912,7 @@
       <method />
     </configuration>
     <configuration default="false" name="Tomcat 8" type="#com.intellij.j2ee.web.tomcat.TomcatRunConfigurationFactory" factoryName="Local" APPLICATION_SERVER_NAME="Tomcat 8.0.28" ALTERNATIVE_JRE_ENABLED="false" ALTERNATIVE_JRE_PATH="">
+      <option name="COMMON_VM_ARGUMENTS" value="-Dfile.encoding=UTF-8" />
       <option name="SHOW_DIALOG_ON_UPDATE" value="false" />
       <option name="UPDATING_POLICY" value="redeploy-artifacts" />
       <deployment>
@@ -974,12 +1010,13 @@
       <workItem from="1499673553415" duration="83000" />
       <workItem from="1499673775653" duration="62000" />
       <workItem from="1499673958145" duration="12100000" />
-      <workItem from="1499687407788" duration="4249000" />
+      <workItem from="1499687407788" duration="12540000" />
+      <workItem from="1499758907669" duration="4753000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="53330000" />
+    <option name="totallyTimeSpent" value="66374000" />
   </component>
   <component name="TodoView" selected-index="2">
     <todo-panel id="selected-file">
@@ -991,38 +1028,68 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="-929" y="-1057" width="1920" height="1057" extended-state="6" />
+    <frame x="-928" y="-1057" width="1920" height="1057" extended-state="6" />
     <editor active="true" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3284974" sideWeight="0.2374798" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.31917098" sideWeight="0.13268608" order="13" side_tool="false" content_ui="tabs" />
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3284974" sideWeight="0.23507462" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.31917098" sideWeight="0.4371002" order="13" side_tool="false" content_ui="tabs" />
       <window_info id="Palette&#9;" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Java Enterprise" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3284974" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32852563" sideWeight="0.50323623" order="7" side_tool="true" content_ui="tabs" />
-      <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3284974" sideWeight="0.49676377" order="8" side_tool="false" content_ui="tabs" />
+      <window_info id="Java Enterprise" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3284974" sideWeight="0.4978678" order="9" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3968912" sideWeight="0.6220682" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.30673575" sideWeight="0.4946695" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.26865673" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.24663213" sideWeight="0.42556635" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Spring" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3284974" sideWeight="0.49676377" order="11" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.24663213" sideWeight="0.35501066" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Spring" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.3284974" sideWeight="0.4946695" order="11" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3284974" sideWeight="0.5" order="12" side_tool="false" content_ui="tabs" />
-      <window_info id="Persistence" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.27906978" order="3" side_tool="true" content_ui="tabs" />
+      <window_info id="Persistence" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.19072708" sideWeight="0.33425033" order="3" side_tool="true" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.19083156" sideWeight="0.57416266" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.19083156" sideWeight="0.66574967" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Web" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.20349762" sideWeight="0.4258373" order="4" side_tool="true" content_ui="tabs" />
-      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.07356077" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32953367" sideWeight="0.49676898" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.20895523" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32953367" sideWeight="0.49253732" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="5" side_tool="true" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3968912" sideWeight="0.25485438" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3968912" sideWeight="0.37793177" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
     </layout>
+    <layout-to-restore>
+      <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32852563" sideWeight="0.50323623" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3284974" sideWeight="0.49676377" order="8" side_tool="false" content_ui="tabs" />
+      <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.26865673" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Designer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.20895523" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3968912" sideWeight="0.25485438" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3284974" sideWeight="0.2374798" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.31917098" sideWeight="0.13268608" order="13" side_tool="false" content_ui="tabs" />
+      <window_info id="Palette&#9;" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Java Enterprise" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3284974" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
+      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.24663213" sideWeight="0.42556635" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Spring" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3284974" sideWeight="0.49676377" order="11" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3284974" sideWeight="0.5" order="12" side_tool="false" content_ui="tabs" />
+      <window_info id="Persistence" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.27906978" order="3" side_tool="true" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.19083156" sideWeight="0.57416266" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Web" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.20349762" sideWeight="0.4258373" order="4" side_tool="true" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32953367" sideWeight="0.49676898" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="5" side_tool="true" content_ui="tabs" />
+    </layout-to-restore>
   </component>
   <component name="Vcs.Log.UiProperties">
     <option name="RECENTLY_FILTERED_USER_GROUPS">
@@ -1039,25 +1106,19 @@
     <breakpoint-manager>
       <breakpoints>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/com/nina/webCollector/controller/MainController.java</url>
-          <line>33</line>
-          <properties />
-          <option name="timeStamp" value="5" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/main/java/com/nina/webCollector/LLHelper/DateUtil.java</url>
           <line>62</line>
           <properties />
           <option name="timeStamp" value="7" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/com/nina/webCollector/controller/MainController.java</url>
-          <line>26</line>
+          <url>file://$PROJECT_DIR$/src/main/java/com/nina/webCollector/webCollector/LLWebCollector.java</url>
+          <line>61</line>
           <properties />
-          <option name="timeStamp" value="8" />
+          <option name="timeStamp" value="11" />
         </line-breakpoint>
       </breakpoints>
-      <option name="time" value="9" />
+      <option name="time" value="16" />
     </breakpoint-manager>
     <watches-manager />
   </component>
@@ -1066,35 +1127,6 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="85" column="30" selection-start-line="85" selection-start-column="30" selection-end-line="85" selection-end-column="30" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/html/index.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="15" column="34" selection-start-line="15" selection-start-column="34" selection-end-line="15" selection-end-column="34" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/html/index.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="15" column="34" selection-start-line="15" selection-start-column="34" selection-end-line="15" selection-end-column="34" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/application.properties">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.12838802">
-          <caret line="3" column="21" selection-start-line="3" selection-start-column="21" selection-end-line="3" selection-end-column="21" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/webapp/js/bootstrap.min.js">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.28708133">
@@ -1204,21 +1236,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_45.jdk/Contents/Home/src.zip!/java/sql/Statement.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.23495702">
-          <caret line="38" column="2" selection-start-line="38" selection-start-column="2" selection-end-line="38" selection-end-column="2" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/spring-mybatis.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.18535826">
-          <caret line="7" column="48" selection-start-line="7" selection-start-column="48" selection-end-line="7" selection-end-column="48" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/nina/webCollector/model/TagmapExample.java">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
@@ -1233,13 +1250,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/generatorConfig.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.7716418">
-          <caret line="33" column="54" selection-start-line="33" selection-start-column="54" selection-end-line="33" selection-end-column="54" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/nina/webCollector/model/DocumentExample.java">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.3667622">
@@ -1251,6 +1261,211 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="-14.214286">
           <caret line="803" column="11" selection-start-line="803" selection-start-column="11" selection-end-line="803" selection-end-column="11" />
+          <folding>
+            <element signature="n#resultMap#0;n#mapper#0;n#!!top" expanded="false" />
+            <element signature="n#resultMap#1;n#mapper#0;n#!!top" expanded="false" />
+            <element signature="n#sql#0;n#mapper#0;n#!!top" expanded="false" />
+            <element signature="n#where#0;n#sql#0;n#mapper#0;n#!!top" expanded="false" />
+            <element signature="n#foreach#0;n#where#0;n#sql#0;n#mapper#0;n#!!top" expanded="false" />
+            <element signature="n#if#0;n#foreach#0;n#where#0;n#sql#0;n#mapper#0;n#!!top" expanded="false" />
+            <element signature="n#trim#0;n#if#0;n#foreach#0;n#where#0;n#sql#0;n#mapper#0;n#!!top" expanded="false" />
+            <element signature="n#foreach#0;n#trim#0;n#if#0;n#foreach#0;n#where#0;n#sql#0;n#mapper#0;n#!!top" expanded="false" />
+            <element signature="n#choose#0;n#foreach#0;n#trim#0;n#if#0;n#foreach#0;n#where#0;n#sql#0;n#mapper#0;n#!!top" expanded="false" />
+            <element signature="n#when#0;n#choose#0;n#foreach#0;n#trim#0;n#if#0;n#foreach#0;n#where#0;n#sql#0;n#mapper#0;n#!!top" expanded="false" />
+            <element signature="n#when#1;n#choose#0;n#foreach#0;n#trim#0;n#if#0;n#foreach#0;n#where#0;n#sql#0;n#mapper#0;n#!!top" expanded="false" />
+            <element signature="n#when#2;n#choose#0;n#foreach#0;n#trim#0;n#if#0;n#foreach#0;n#where#0;n#sql#0;n#mapper#0;n#!!top" expanded="false" />
+            <element signature="n#when#3;n#choose#0;n#foreach#0;n#trim#0;n#if#0;n#foreach#0;n#where#0;n#sql#0;n#mapper#0;n#!!top" expanded="false" />
+            <element signature="n#foreach#0;n#when#3;n#choose#0;n#foreach#0;n#trim#0;n#if#0;n#foreach#0;n#where#0;n#sql#0;n#mapper#0;n#!!top" expanded="false" />
+            <element signature="n#sql#1;n#mapper#0;n#!!top" expanded="false" />
+            <element signature="n#sql#2;n#mapper#0;n#!!top" expanded="false" />
+            <element signature="n#sql#3;n#mapper#0;n#!!top" expanded="false" />
+            <element signature="n#select#0;n#mapper#0;n#!!top" expanded="false" />
+            <element signature="n#if#0;n#select#0;n#mapper#0;n#!!top" expanded="false" />
+            <element signature="n#if#1;n#select#0;n#mapper#0;n#!!top" expanded="false" />
+            <element signature="n#if#2;n#select#0;n#mapper#0;n#!!top" expanded="false" />
+            <element signature="n#select#1;n#mapper#0;n#!!top" expanded="false" />
+            <element signature="n#select#2;n#mapper#0;n#!!top" expanded="false" />
+            <element signature="n#delete#0;n#mapper#0;n#!!top" expanded="false" />
+            <element signature="n#delete#1;n#mapper#0;n#!!top" expanded="false" />
+            <element signature="n#if#0;n#delete#1;n#mapper#0;n#!!top" expanded="false" />
+            <element signature="n#insert#0;n#mapper#0;n#!!top" expanded="false" />
+            <element signature="n#insert#1;n#mapper#0;n#!!top" expanded="false" />
+            <element signature="n#trim#0;n#insert#1;n#mapper#0;n#!!top" expanded="false" />
+            <element signature="n#if#0;n#trim#0;n#insert#1;n#mapper#0;n#!!top" expanded="false" />
+            <element signature="n#if#1;n#trim#0;n#insert#1;n#mapper#0;n#!!top" expanded="false" />
+            <element signature="n#if#2;n#trim#0;n#insert#1;n#mapper#0;n#!!top" expanded="false" />
+            <element signature="n#if#3;n#trim#0;n#insert#1;n#mapper#0;n#!!top" expanded="false" />
+            <element signature="n#if#4;n#trim#0;n#insert#1;n#mapper#0;n#!!top" expanded="false" />
+            <element signature="n#if#5;n#trim#0;n#insert#1;n#mapper#0;n#!!top" expanded="false" />
+            <element signature="n#if#6;n#trim#0;n#insert#1;n#mapper#0;n#!!top" expanded="false" />
+            <element signature="n#trim#1;n#insert#1;n#mapper#0;n#!!top" expanded="false" />
+            <element signature="n#if#0;n#trim#1;n#insert#1;n#mapper#0;n#!!top" expanded="false" />
+            <element signature="n#if#1;n#trim#1;n#insert#1;n#mapper#0;n#!!top" expanded="false" />
+            <element signature="n#if#2;n#trim#1;n#insert#1;n#mapper#0;n#!!top" expanded="false" />
+            <element signature="n#if#3;n#trim#1;n#insert#1;n#mapper#0;n#!!top" expanded="false" />
+            <element signature="n#if#4;n#trim#1;n#insert#1;n#mapper#0;n#!!top" expanded="false" />
+            <element signature="n#if#5;n#trim#1;n#insert#1;n#mapper#0;n#!!top" expanded="false" />
+            <element signature="n#if#6;n#trim#1;n#insert#1;n#mapper#0;n#!!top" expanded="false" />
+            <element signature="n#select#3;n#mapper#0;n#!!top" expanded="false" />
+            <element signature="n#if#0;n#select#3;n#mapper#0;n#!!top" expanded="false" />
+            <element signature="n#update#0;n#mapper#0;n#!!top" expanded="false" />
+            <element signature="n#set#0;n#update#0;n#mapper#0;n#!!top" expanded="false" />
+            <element signature="n#if#0;n#set#0;n#update#0;n#mapper#0;n#!!top" expanded="false" />
+            <element signature="n#if#1;n#set#0;n#update#0;n#mapper#0;n#!!top" expanded="false" />
+            <element signature="n#if#2;n#set#0;n#update#0;n#mapper#0;n#!!top" expanded="false" />
+            <element signature="n#if#3;n#set#0;n#update#0;n#mapper#0;n#!!top" expanded="false" />
+            <element signature="n#if#4;n#set#0;n#update#0;n#mapper#0;n#!!top" expanded="false" />
+            <element signature="n#if#5;n#set#0;n#update#0;n#mapper#0;n#!!top" expanded="false" />
+            <element signature="n#if#6;n#set#0;n#update#0;n#mapper#0;n#!!top" expanded="false" />
+            <element signature="n#if#0;n#update#0;n#mapper#0;n#!!top" expanded="false" />
+            <element signature="n#update#1;n#mapper#0;n#!!top" expanded="false" />
+            <element signature="n#if#0;n#update#1;n#mapper#0;n#!!top" expanded="false" />
+            <element signature="n#update#2;n#mapper#0;n#!!top" expanded="false" />
+            <element signature="n#if#0;n#update#2;n#mapper#0;n#!!top" expanded="false" />
+            <element signature="n#update#3;n#mapper#0;n#!!top" expanded="false" />
+            <element signature="n#if#0;n#set#0;n#update#3;n#mapper#0;n#!!top" expanded="false" />
+            <element signature="n#if#1;n#set#0;n#update#3;n#mapper#0;n#!!top" expanded="false" />
+            <element signature="n#if#2;n#set#0;n#update#3;n#mapper#0;n#!!top" expanded="false" />
+            <element signature="n#if#3;n#set#0;n#update#3;n#mapper#0;n#!!top" expanded="false" />
+            <element signature="n#if#4;n#set#0;n#update#3;n#mapper#0;n#!!top" expanded="false" />
+            <element signature="n#update#4;n#mapper#0;n#!!top" expanded="false" />
+            <element signature="n#update#5;n#mapper#0;n#!!top" expanded="false" />
+            <element signature="n#resultMap#2;n#mapper#0;n#!!top" expanded="false" />
+            <element signature="n#resultMap#3;n#mapper#0;n#!!top" expanded="false" />
+            <element signature="n#sql#4;n#mapper#0;n#!!top" expanded="false" />
+            <element signature="n#where#0;n#sql#4;n#mapper#0;n#!!top" expanded="false" />
+            <element signature="n#foreach#0;n#where#0;n#sql#4;n#mapper#0;n#!!top" expanded="false" />
+            <element signature="n#if#0;n#foreach#0;n#where#0;n#sql#4;n#mapper#0;n#!!top" expanded="false" />
+            <element signature="n#trim#0;n#if#0;n#foreach#0;n#where#0;n#sql#4;n#mapper#0;n#!!top" expanded="false" />
+            <element signature="n#foreach#0;n#trim#0;n#if#0;n#foreach#0;n#where#0;n#sql#4;n#mapper#0;n#!!top" expanded="false" />
+            <element signature="n#choose#0;n#foreach#0;n#trim#0;n#if#0;n#foreach#0;n#where#0;n#sql#4;n#mapper#0;n#!!top" expanded="false" />
+            <element signature="n#when#0;n#choose#0;n#foreach#0;n#trim#0;n#if#0;n#foreach#0;n#where#0;n#sql#4;n#mapper#0;n#!!top" expanded="false" />
+            <element signature="n#when#1;n#choose#0;n#foreach#0;n#trim#0;n#if#0;n#foreach#0;n#where#0;n#sql#4;n#mapper#0;n#!!top" expanded="false" />
+            <element signature="n#when#2;n#choose#0;n#foreach#0;n#trim#0;n#if#0;n#foreach#0;n#where#0;n#sql#4;n#mapper#0;n#!!top" expanded="false" />
+            <element signature="n#when#3;n#choose#0;n#foreach#0;n#trim#0;n#if#0;n#foreach#0;n#where#0;n#sql#4;n#mapper#0;n#!!top" expanded="false" />
+            <element signature="n#foreach#0;n#when#3;n#choose#0;n#foreach#0;n#trim#0;n#if#0;n#foreach#0;n#where#0;n#sql#4;n#mapper#0;n#!!top" expanded="false" />
+            <element signature="n#sql#5;n#mapper#0;n#!!top" expanded="false" />
+            <element signature="n#sql#6;n#mapper#0;n#!!top" expanded="false" />
+            <element signature="n#sql#7;n#mapper#0;n#!!top" expanded="false" />
+            <element signature="n#select#4;n#mapper#0;n#!!top" expanded="false" />
+            <element signature="n#if#0;n#select#4;n#mapper#0;n#!!top" expanded="false" />
+            <element signature="n#if#1;n#select#4;n#mapper#0;n#!!top" expanded="false" />
+            <element signature="n#if#2;n#select#4;n#mapper#0;n#!!top" expanded="false" />
+            <element signature="n#select#5;n#mapper#0;n#!!top" expanded="false" />
+            <element signature="n#select#6;n#mapper#0;n#!!top" expanded="false" />
+            <element signature="n#delete#2;n#mapper#0;n#!!top" expanded="false" />
+            <element signature="n#delete#3;n#mapper#0;n#!!top" expanded="false" />
+            <element signature="n#if#0;n#delete#3;n#mapper#0;n#!!top" expanded="false" />
+            <element signature="n#insert#2;n#mapper#0;n#!!top" expanded="false" />
+            <element signature="n#insert#3;n#mapper#0;n#!!top" expanded="false" />
+            <element signature="n#trim#0;n#insert#3;n#mapper#0;n#!!top" expanded="false" />
+            <element signature="n#if#0;n#trim#0;n#insert#3;n#mapper#0;n#!!top" expanded="false" />
+            <element signature="n#if#1;n#trim#0;n#insert#3;n#mapper#0;n#!!top" expanded="false" />
+            <element signature="n#if#2;n#trim#0;n#insert#3;n#mapper#0;n#!!top" expanded="false" />
+            <element signature="n#if#3;n#trim#0;n#insert#3;n#mapper#0;n#!!top" expanded="false" />
+            <element signature="n#if#4;n#trim#0;n#insert#3;n#mapper#0;n#!!top" expanded="false" />
+            <element signature="n#if#5;n#trim#0;n#insert#3;n#mapper#0;n#!!top" expanded="false" />
+            <element signature="n#if#6;n#trim#0;n#insert#3;n#mapper#0;n#!!top" expanded="false" />
+            <element signature="n#trim#1;n#insert#3;n#mapper#0;n#!!top" expanded="false" />
+            <element signature="n#if#0;n#trim#1;n#insert#3;n#mapper#0;n#!!top" expanded="false" />
+            <element signature="n#if#1;n#trim#1;n#insert#3;n#mapper#0;n#!!top" expanded="false" />
+            <element signature="n#if#2;n#trim#1;n#insert#3;n#mapper#0;n#!!top" expanded="false" />
+            <element signature="n#if#3;n#trim#1;n#insert#3;n#mapper#0;n#!!top" expanded="false" />
+            <element signature="n#if#4;n#trim#1;n#insert#3;n#mapper#0;n#!!top" expanded="false" />
+            <element signature="n#if#5;n#trim#1;n#insert#3;n#mapper#0;n#!!top" expanded="false" />
+            <element signature="n#if#6;n#trim#1;n#insert#3;n#mapper#0;n#!!top" expanded="false" />
+            <element signature="n#select#7;n#mapper#0;n#!!top" expanded="false" />
+            <element signature="n#if#0;n#select#7;n#mapper#0;n#!!top" expanded="false" />
+            <element signature="n#update#6;n#mapper#0;n#!!top" expanded="false" />
+            <element signature="n#set#0;n#update#6;n#mapper#0;n#!!top" expanded="false" />
+            <element signature="n#if#0;n#set#0;n#update#6;n#mapper#0;n#!!top" expanded="false" />
+            <element signature="n#if#1;n#set#0;n#update#6;n#mapper#0;n#!!top" expanded="false" />
+            <element signature="n#if#2;n#set#0;n#update#6;n#mapper#0;n#!!top" expanded="false" />
+            <element signature="n#if#3;n#set#0;n#update#6;n#mapper#0;n#!!top" expanded="false" />
+            <element signature="n#if#4;n#set#0;n#update#6;n#mapper#0;n#!!top" expanded="false" />
+            <element signature="n#if#5;n#set#0;n#update#6;n#mapper#0;n#!!top" expanded="false" />
+            <element signature="n#if#6;n#set#0;n#update#6;n#mapper#0;n#!!top" expanded="false" />
+            <element signature="n#if#0;n#update#6;n#mapper#0;n#!!top" expanded="false" />
+            <element signature="n#update#7;n#mapper#0;n#!!top" expanded="false" />
+            <element signature="n#if#0;n#update#7;n#mapper#0;n#!!top" expanded="false" />
+            <element signature="n#update#8;n#mapper#0;n#!!top" expanded="false" />
+            <element signature="n#if#0;n#update#8;n#mapper#0;n#!!top" expanded="false" />
+            <element signature="n#update#9;n#mapper#0;n#!!top" expanded="false" />
+            <element signature="n#if#0;n#set#0;n#update#9;n#mapper#0;n#!!top" expanded="false" />
+            <element signature="n#if#1;n#set#0;n#update#9;n#mapper#0;n#!!top" expanded="false" />
+            <element signature="n#if#2;n#set#0;n#update#9;n#mapper#0;n#!!top" expanded="false" />
+            <element signature="n#if#3;n#set#0;n#update#9;n#mapper#0;n#!!top" expanded="false" />
+            <element signature="n#if#4;n#set#0;n#update#9;n#mapper#0;n#!!top" expanded="false" />
+            <element signature="n#update#10;n#mapper#0;n#!!top" expanded="false" />
+            <element signature="n#update#11;n#mapper#0;n#!!top" expanded="false" />
+            <element signature="n#resultMap#4;n#mapper#0;n#!!top" expanded="false" />
+            <element signature="n#resultMap#5;n#mapper#0;n#!!top" expanded="false" />
+            <element signature="n#sql#8;n#mapper#0;n#!!top" expanded="false" />
+            <element signature="n#where#0;n#sql#8;n#mapper#0;n#!!top" expanded="false" />
+            <element signature="n#foreach#0;n#where#0;n#sql#8;n#mapper#0;n#!!top" expanded="false" />
+            <element signature="n#if#0;n#foreach#0;n#where#0;n#sql#8;n#mapper#0;n#!!top" expanded="false" />
+            <element signature="n#trim#0;n#if#0;n#foreach#0;n#where#0;n#sql#8;n#mapper#0;n#!!top" expanded="false" />
+            <element signature="n#foreach#0;n#trim#0;n#if#0;n#foreach#0;n#where#0;n#sql#8;n#mapper#0;n#!!top" expanded="false" />
+            <element signature="n#choose#0;n#foreach#0;n#trim#0;n#if#0;n#foreach#0;n#where#0;n#sql#8;n#mapper#0;n#!!top" expanded="false" />
+            <element signature="n#when#0;n#choose#0;n#foreach#0;n#trim#0;n#if#0;n#foreach#0;n#where#0;n#sql#8;n#mapper#0;n#!!top" expanded="false" />
+            <element signature="n#when#1;n#choose#0;n#foreach#0;n#trim#0;n#if#0;n#foreach#0;n#where#0;n#sql#8;n#mapper#0;n#!!top" expanded="false" />
+            <element signature="n#when#2;n#choose#0;n#foreach#0;n#trim#0;n#if#0;n#foreach#0;n#where#0;n#sql#8;n#mapper#0;n#!!top" expanded="false" />
+            <element signature="n#when#3;n#choose#0;n#foreach#0;n#trim#0;n#if#0;n#foreach#0;n#where#0;n#sql#8;n#mapper#0;n#!!top" expanded="false" />
+            <element signature="n#foreach#0;n#when#3;n#choose#0;n#foreach#0;n#trim#0;n#if#0;n#foreach#0;n#where#0;n#sql#8;n#mapper#0;n#!!top" expanded="false" />
+            <element signature="n#sql#9;n#mapper#0;n#!!top" expanded="false" />
+            <element signature="n#sql#10;n#mapper#0;n#!!top" expanded="false" />
+            <element signature="n#sql#11;n#mapper#0;n#!!top" expanded="false" />
+            <element signature="n#select#8;n#mapper#0;n#!!top" expanded="false" />
+            <element signature="n#if#0;n#select#8;n#mapper#0;n#!!top" expanded="false" />
+            <element signature="n#if#1;n#select#8;n#mapper#0;n#!!top" expanded="false" />
+            <element signature="n#if#2;n#select#8;n#mapper#0;n#!!top" expanded="false" />
+            <element signature="n#select#9;n#mapper#0;n#!!top" expanded="false" />
+            <element signature="n#select#10;n#mapper#0;n#!!top" expanded="false" />
+            <element signature="n#delete#4;n#mapper#0;n#!!top" expanded="false" />
+            <element signature="n#delete#5;n#mapper#0;n#!!top" expanded="false" />
+            <element signature="n#if#0;n#delete#5;n#mapper#0;n#!!top" expanded="false" />
+            <element signature="n#insert#4;n#mapper#0;n#!!top" expanded="false" />
+            <element signature="n#insert#5;n#mapper#0;n#!!top" expanded="false" />
+            <element signature="n#trim#0;n#insert#5;n#mapper#0;n#!!top" expanded="false" />
+            <element signature="n#if#0;n#trim#0;n#insert#5;n#mapper#0;n#!!top" expanded="false" />
+            <element signature="n#if#1;n#trim#0;n#insert#5;n#mapper#0;n#!!top" expanded="false" />
+            <element signature="n#if#2;n#trim#0;n#insert#5;n#mapper#0;n#!!top" expanded="false" />
+            <element signature="n#if#3;n#trim#0;n#insert#5;n#mapper#0;n#!!top" expanded="false" />
+            <element signature="n#if#4;n#trim#0;n#insert#5;n#mapper#0;n#!!top" expanded="false" />
+            <element signature="n#if#5;n#trim#0;n#insert#5;n#mapper#0;n#!!top" expanded="false" />
+            <element signature="n#if#6;n#trim#0;n#insert#5;n#mapper#0;n#!!top" expanded="false" />
+            <element signature="n#trim#1;n#insert#5;n#mapper#0;n#!!top" expanded="false" />
+            <element signature="n#if#0;n#trim#1;n#insert#5;n#mapper#0;n#!!top" expanded="false" />
+            <element signature="n#if#1;n#trim#1;n#insert#5;n#mapper#0;n#!!top" expanded="false" />
+            <element signature="n#if#2;n#trim#1;n#insert#5;n#mapper#0;n#!!top" expanded="false" />
+            <element signature="n#if#3;n#trim#1;n#insert#5;n#mapper#0;n#!!top" expanded="false" />
+            <element signature="n#if#4;n#trim#1;n#insert#5;n#mapper#0;n#!!top" expanded="false" />
+            <element signature="n#if#5;n#trim#1;n#insert#5;n#mapper#0;n#!!top" expanded="false" />
+            <element signature="n#if#6;n#trim#1;n#insert#5;n#mapper#0;n#!!top" expanded="false" />
+            <element signature="n#select#11;n#mapper#0;n#!!top" expanded="false" />
+            <element signature="n#if#0;n#select#11;n#mapper#0;n#!!top" expanded="false" />
+            <element signature="n#update#12;n#mapper#0;n#!!top" expanded="false" />
+            <element signature="n#set#0;n#update#12;n#mapper#0;n#!!top" expanded="false" />
+            <element signature="n#if#0;n#set#0;n#update#12;n#mapper#0;n#!!top" expanded="false" />
+            <element signature="n#if#1;n#set#0;n#update#12;n#mapper#0;n#!!top" expanded="false" />
+            <element signature="n#if#2;n#set#0;n#update#12;n#mapper#0;n#!!top" expanded="false" />
+            <element signature="n#if#3;n#set#0;n#update#12;n#mapper#0;n#!!top" expanded="false" />
+            <element signature="n#if#4;n#set#0;n#update#12;n#mapper#0;n#!!top" expanded="false" />
+            <element signature="n#if#5;n#set#0;n#update#12;n#mapper#0;n#!!top" expanded="false" />
+            <element signature="n#if#6;n#set#0;n#update#12;n#mapper#0;n#!!top" expanded="false" />
+            <element signature="n#if#0;n#update#12;n#mapper#0;n#!!top" expanded="false" />
+            <element signature="n#update#13;n#mapper#0;n#!!top" expanded="false" />
+            <element signature="n#if#0;n#update#13;n#mapper#0;n#!!top" expanded="false" />
+            <element signature="n#update#14;n#mapper#0;n#!!top" expanded="false" />
+            <element signature="n#if#0;n#update#14;n#mapper#0;n#!!top" expanded="false" />
+            <element signature="n#update#15;n#mapper#0;n#!!top" expanded="false" />
+            <element signature="n#if#0;n#set#0;n#update#15;n#mapper#0;n#!!top" expanded="false" />
+            <element signature="n#if#1;n#set#0;n#update#15;n#mapper#0;n#!!top" expanded="false" />
+            <element signature="n#if#2;n#set#0;n#update#15;n#mapper#0;n#!!top" expanded="false" />
+            <element signature="n#if#3;n#set#0;n#update#15;n#mapper#0;n#!!top" expanded="false" />
+            <element signature="n#if#4;n#set#0;n#update#15;n#mapper#0;n#!!top" expanded="false" />
+            <element signature="n#update#16;n#mapper#0;n#!!top" expanded="false" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -1287,13 +1502,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/nina/webCollector/LLHelper/MYSQLManager.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.40605095">
-          <caret line="19" column="136" selection-start-line="19" selection-start-column="24" selection-end-line="19" selection-end-column="136" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/nina/webCollector/model/Document.java">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.7308917">
@@ -1305,24 +1513,11 @@
         </state>
       </provider>
     </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/cn/edu/hfut/dmic/webcollector/WebCollector/2.52/WebCollector-2.52-sources.jar!/cn/edu/hfut/dmic/contentextractor/News.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="1.111465">
-          <caret line="78" column="14" selection-start-line="78" selection-start-column="14" selection-end-line="78" selection-end-column="14" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/nina/webCollector/mapper/DocumentMapper.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.86624205">
-          <caret line="36" column="1" selection-start-line="36" selection-start-column="1" selection-end-line="36" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/nina/webCollector/mapper/TagmapMapper.java">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.70382166">
           <caret line="29" column="1" selection-start-line="29" selection-start-column="1" selection-end-line="29" selection-end-column="1" />
+          <folding />
         </state>
       </provider>
     </entry>
@@ -1330,6 +1525,105 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="1.2866666">
           <caret line="535" column="16" selection-start-line="535" selection-start-column="16" selection-end-line="535" selection-end-column="16" />
+          <folding>
+            <element signature="n#sql#0;n#mapper#0;n#!!top" expanded="false" />
+            <element signature="n#where#0;n#sql#0;n#mapper#0;n#!!top" expanded="false" />
+            <element signature="n#sql#1;n#mapper#0;n#!!top" expanded="false" />
+            <element signature="n#sql#2;n#mapper#0;n#!!top" expanded="false" />
+            <element signature="n#select#0;n#mapper#0;n#!!top" expanded="false" />
+            <element signature="n#if#0;n#select#0;n#mapper#0;n#!!top" expanded="false" />
+            <element signature="n#if#1;n#select#0;n#mapper#0;n#!!top" expanded="false" />
+            <element signature="n#select#1;n#mapper#0;n#!!top" expanded="false" />
+            <element signature="n#delete#0;n#mapper#0;n#!!top" expanded="false" />
+            <element signature="n#delete#1;n#mapper#0;n#!!top" expanded="false" />
+            <element signature="n#if#0;n#delete#1;n#mapper#0;n#!!top" expanded="false" />
+            <element signature="n#insert#0;n#mapper#0;n#!!top" expanded="false" />
+            <element signature="n#insert#1;n#mapper#0;n#!!top" expanded="false" />
+            <element signature="n#trim#0;n#insert#1;n#mapper#0;n#!!top" expanded="false" />
+            <element signature="n#if#0;n#trim#0;n#insert#1;n#mapper#0;n#!!top" expanded="false" />
+            <element signature="n#if#1;n#trim#0;n#insert#1;n#mapper#0;n#!!top" expanded="false" />
+            <element signature="n#if#2;n#trim#0;n#insert#1;n#mapper#0;n#!!top" expanded="false" />
+            <element signature="n#if#0;n#trim#1;n#insert#1;n#mapper#0;n#!!top" expanded="false" />
+            <element signature="n#if#1;n#trim#1;n#insert#1;n#mapper#0;n#!!top" expanded="false" />
+            <element signature="n#select#2;n#mapper#0;n#!!top" expanded="false" />
+            <element signature="n#if#0;n#select#2;n#mapper#0;n#!!top" expanded="false" />
+            <element signature="n#update#0;n#mapper#0;n#!!top" expanded="false" />
+            <element signature="n#set#0;n#update#0;n#mapper#0;n#!!top" expanded="false" />
+            <element signature="n#if#0;n#set#0;n#update#0;n#mapper#0;n#!!top" expanded="false" />
+            <element signature="n#if#1;n#set#0;n#update#0;n#mapper#0;n#!!top" expanded="false" />
+            <element signature="n#if#2;n#set#0;n#update#0;n#mapper#0;n#!!top" expanded="false" />
+            <element signature="n#if#0;n#update#0;n#mapper#0;n#!!top" expanded="false" />
+            <element signature="n#update#1;n#mapper#0;n#!!top" expanded="false" />
+            <element signature="n#if#0;n#update#1;n#mapper#0;n#!!top" expanded="false" />
+            <element signature="n#update#2;n#mapper#0;n#!!top" expanded="false" />
+            <element signature="n#if#0;n#set#0;n#update#2;n#mapper#0;n#!!top" expanded="false" />
+            <element signature="n#update#3;n#mapper#0;n#!!top" expanded="false" />
+            <element signature="n#resultMap#1;n#mapper#0;n#!!top" expanded="false" />
+            <element signature="n#sql#3;n#mapper#0;n#!!top" expanded="false" />
+            <element signature="n#where#0;n#sql#3;n#mapper#0;n#!!top" expanded="false" />
+            <element signature="n#sql#4;n#mapper#0;n#!!top" expanded="false" />
+            <element signature="n#sql#5;n#mapper#0;n#!!top" expanded="false" />
+            <element signature="n#select#3;n#mapper#0;n#!!top" expanded="false" />
+            <element signature="n#if#0;n#select#3;n#mapper#0;n#!!top" expanded="false" />
+            <element signature="n#if#1;n#select#3;n#mapper#0;n#!!top" expanded="false" />
+            <element signature="n#select#4;n#mapper#0;n#!!top" expanded="false" />
+            <element signature="n#delete#2;n#mapper#0;n#!!top" expanded="false" />
+            <element signature="n#delete#3;n#mapper#0;n#!!top" expanded="false" />
+            <element signature="n#if#0;n#delete#3;n#mapper#0;n#!!top" expanded="false" />
+            <element signature="n#insert#2;n#mapper#0;n#!!top" expanded="false" />
+            <element signature="n#insert#3;n#mapper#0;n#!!top" expanded="false" />
+            <element signature="n#trim#0;n#insert#3;n#mapper#0;n#!!top" expanded="false" />
+            <element signature="n#if#0;n#trim#0;n#insert#3;n#mapper#0;n#!!top" expanded="false" />
+            <element signature="n#if#1;n#trim#0;n#insert#3;n#mapper#0;n#!!top" expanded="false" />
+            <element signature="n#if#2;n#trim#0;n#insert#3;n#mapper#0;n#!!top" expanded="false" />
+            <element signature="n#if#0;n#trim#1;n#insert#3;n#mapper#0;n#!!top" expanded="false" />
+            <element signature="n#if#1;n#trim#1;n#insert#3;n#mapper#0;n#!!top" expanded="false" />
+            <element signature="n#select#5;n#mapper#0;n#!!top" expanded="false" />
+            <element signature="n#if#0;n#select#5;n#mapper#0;n#!!top" expanded="false" />
+            <element signature="n#update#4;n#mapper#0;n#!!top" expanded="false" />
+            <element signature="n#set#0;n#update#4;n#mapper#0;n#!!top" expanded="false" />
+            <element signature="n#if#0;n#set#0;n#update#4;n#mapper#0;n#!!top" expanded="false" />
+            <element signature="n#if#1;n#set#0;n#update#4;n#mapper#0;n#!!top" expanded="false" />
+            <element signature="n#if#2;n#set#0;n#update#4;n#mapper#0;n#!!top" expanded="false" />
+            <element signature="n#if#0;n#update#4;n#mapper#0;n#!!top" expanded="false" />
+            <element signature="n#update#5;n#mapper#0;n#!!top" expanded="false" />
+            <element signature="n#if#0;n#update#5;n#mapper#0;n#!!top" expanded="false" />
+            <element signature="n#update#6;n#mapper#0;n#!!top" expanded="false" />
+            <element signature="n#if#0;n#set#0;n#update#6;n#mapper#0;n#!!top" expanded="false" />
+            <element signature="n#update#7;n#mapper#0;n#!!top" expanded="false" />
+            <element signature="n#resultMap#2;n#mapper#0;n#!!top" expanded="false" />
+            <element signature="n#sql#6;n#mapper#0;n#!!top" expanded="false" />
+            <element signature="n#where#0;n#sql#6;n#mapper#0;n#!!top" expanded="false" />
+            <element signature="n#sql#7;n#mapper#0;n#!!top" expanded="false" />
+            <element signature="n#sql#8;n#mapper#0;n#!!top" expanded="false" />
+            <element signature="n#select#6;n#mapper#0;n#!!top" expanded="false" />
+            <element signature="n#if#0;n#select#6;n#mapper#0;n#!!top" expanded="false" />
+            <element signature="n#if#1;n#select#6;n#mapper#0;n#!!top" expanded="false" />
+            <element signature="n#select#7;n#mapper#0;n#!!top" expanded="false" />
+            <element signature="n#delete#4;n#mapper#0;n#!!top" expanded="false" />
+            <element signature="n#delete#5;n#mapper#0;n#!!top" expanded="false" />
+            <element signature="n#if#0;n#delete#5;n#mapper#0;n#!!top" expanded="false" />
+            <element signature="n#insert#4;n#mapper#0;n#!!top" expanded="false" />
+            <element signature="n#insert#5;n#mapper#0;n#!!top" expanded="false" />
+            <element signature="n#trim#0;n#insert#5;n#mapper#0;n#!!top" expanded="false" />
+            <element signature="n#if#0;n#trim#0;n#insert#5;n#mapper#0;n#!!top" expanded="false" />
+            <element signature="n#if#1;n#trim#0;n#insert#5;n#mapper#0;n#!!top" expanded="false" />
+            <element signature="n#if#2;n#trim#0;n#insert#5;n#mapper#0;n#!!top" expanded="false" />
+            <element signature="n#if#0;n#trim#1;n#insert#5;n#mapper#0;n#!!top" expanded="false" />
+            <element signature="n#if#1;n#trim#1;n#insert#5;n#mapper#0;n#!!top" expanded="false" />
+            <element signature="n#select#8;n#mapper#0;n#!!top" expanded="false" />
+            <element signature="n#if#0;n#select#8;n#mapper#0;n#!!top" expanded="false" />
+            <element signature="n#update#8;n#mapper#0;n#!!top" expanded="false" />
+            <element signature="n#set#0;n#update#8;n#mapper#0;n#!!top" expanded="false" />
+            <element signature="n#if#0;n#set#0;n#update#8;n#mapper#0;n#!!top" expanded="false" />
+            <element signature="n#if#1;n#set#0;n#update#8;n#mapper#0;n#!!top" expanded="false" />
+            <element signature="n#if#2;n#set#0;n#update#8;n#mapper#0;n#!!top" expanded="false" />
+            <element signature="n#if#0;n#update#8;n#mapper#0;n#!!top" expanded="false" />
+            <element signature="n#update#9;n#mapper#0;n#!!top" expanded="false" />
+            <element signature="n#if#0;n#update#9;n#mapper#0;n#!!top" expanded="false" />
+            <element signature="n#update#10;n#mapper#0;n#!!top" expanded="false" />
+            <element signature="n#if#0;n#set#0;n#update#10;n#mapper#0;n#!!top" expanded="false" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -1337,14 +1631,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="2712" column="69" selection-start-line="2712" selection-start-column="69" selection-end-line="2712" selection-end-column="69" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/config.propertites">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.31661892">
-          <caret line="13" column="13" selection-start-line="13" selection-start-column="13" selection-end-line="13" selection-end-column="13" />
         </state>
       </provider>
     </entry>
@@ -1352,14 +1638,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.2636103">
           <caret line="408" column="0" selection-start-line="408" selection-start-column="0" selection-end-line="408" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-beans/4.2.2.RELEASE/spring-beans-4.2.2.RELEASE.jar!/org/springframework/beans/factory/xml/spring-beans-4.2.xsd">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="49" column="8" selection-start-line="49" selection-start-column="8" selection-end-line="49" selection-end-column="8" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1379,26 +1657,69 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/demo.iml">
+    <entry file="jar://$MAVEN_REPOSITORY$/cn/edu/hfut/dmic/webcollector/WebCollector/2.52/WebCollector-2.52-sources.jar!/cn/edu/hfut/dmic/contentextractor/ContentExtractor.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="2" column="0" selection-start-line="2" selection-start-column="0" selection-end-line="2" selection-end-column="0" />
+        <state vertical-scroll-proportion="0.38694268">
+          <caret line="502" column="23" selection-start-line="502" selection-start-column="23" selection-end-line="502" selection-end-column="23" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/pom.xml">
+    <entry file="file://$PROJECT_DIR$/demo.iml">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="68" column="38" selection-start-line="68" selection-start-column="38" selection-end-line="68" selection-end-column="38" />
+        <state vertical-scroll-proportion="0.018162394">
+          <caret line="2" column="0" selection-start-line="2" selection-start-column="0" selection-end-line="2" selection-end-column="0" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/nina/webCollector/LLHelper/DateUtil.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
+        <state vertical-scroll-proportion="0.58226496">
           <caret line="48" column="17" selection-start-line="48" selection-start-column="17" selection-end-line="48" selection-end-column="17" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-beans/4.2.2.RELEASE/spring-beans-4.2.2.RELEASE.jar!/org/springframework/beans/factory/xml/spring-beans-4.2.xsd">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="49" column="8" selection-start-line="49" selection-start-column="8" selection-end-line="49" selection-end-column="8" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/javax/servlet/servlet-api/2.5/servlet-api-2.5-sources.jar!/javax/servlet/ServletContext.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="66" column="0" selection-start-line="66" selection-start-column="0" selection-end-line="66" selection-end-column="0" />
+          <folding>
+            <element signature="e#0#22412#0" expanded="false" />
+            <element signature="imports" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/nina/webCollector/mapper/DocumentMapper.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.697411">
+          <caret line="31" column="62" selection-start-line="31" selection-start-column="62" selection-end-line="31" selection-end-column="62" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/config.propertites">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.3576052">
+          <caret line="13" column="13" selection-start-line="13" selection-start-column="13" selection-end-line="13" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/generatorConfig.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="23" column="0" selection-start-line="23" selection-start-column="0" selection-end-line="23" selection-end-column="0" />
           <folding />
         </state>
       </provider>
@@ -1406,49 +1727,117 @@
     <entry file="file://$PROJECT_DIR$/src/main/java/com/nina/webCollector/webCollector/MonitorWebsiteNews.java">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
-          <caret line="52" column="0" selection-start-line="52" selection-start-column="0" selection-end-line="52" selection-end-column="0" />
+          <caret line="25" column="7" selection-start-line="25" selection-start-column="7" selection-end-line="25" selection-end-column="7" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/web.xml">
+    <entry file="file://$PROJECT_DIR$/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
-          <caret line="27" column="0" selection-start-line="27" selection-start-column="0" selection-end-line="27" selection-end-column="0" />
+          <caret line="141" column="24" selection-start-line="141" selection-start-column="24" selection-end-line="141" selection-end-column="24" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_45.jdk/Contents/Home/src.zip!/java/sql/Statement.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="89" column="8" selection-start-line="89" selection-start-column="8" selection-end-line="89" selection-end-column="8" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/cn/edu/hfut/dmic/webcollector/WebCollector/2.52/WebCollector-2.52-sources.jar!/cn/edu/hfut/dmic/contentextractor/News.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.33273056">
+          <caret line="35" column="0" selection-start-line="35" selection-start-column="0" selection-end-line="35" selection-end-column="0" />
           <folding>
-            <marker date="1499691348000" expanded="true" signature="90:1359" placeholder="..." />
+            <element signature="e#1112#1113#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/mvc-dispatcher-servlet.xml">
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-webmvc/4.2.2.RELEASE/spring-webmvc-4.2.2.RELEASE-sources.jar!/org/springframework/web/servlet/mvc/method/AbstractHandlerMethodAdapter.java">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
-          <caret line="1" column="58" selection-start-line="1" selection-start-column="58" selection-end-line="1" selection-end-column="58" />
+          <caret line="84" column="0" selection-start-line="84" selection-start-column="0" selection-end-line="84" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="dbDummy://dbtable:/b92469ea/07cd9240-d085-4837-917c-493a15bc6352/Nina..document">
+      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
+        <state>
+          <filtering enabled="true" />
+        </state>
+      </provider>
+      <provider editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/nina/webCollector/LLHelper/MYSQLManager.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="64" column="0" selection-start-line="64" selection-start-column="0" selection-end-line="64" selection-end-column="0" />
           <folding>
-            <element signature="n#bean#0;n#beans#0;n#!!top" expanded="false" />
+            <element signature="imports" expanded="true" />
+            <element signature="method#getDefaultDBConnection#0;class#MYSQLManager#0" expanded="false" />
+            <element signature="method#getConnection#0;class#MYSQLManager#0" expanded="false" />
+            <element signature="method#read#0;class#MYSQLManager#0" expanded="false" />
+            <element signature="method#update#0;class#MYSQLManager#0" expanded="false" />
+            <element signature="method#delete#0;class#MYSQLManager#0" expanded="false" />
+            <element signature="method#closeResultSet#0;class#MYSQLManager#0" expanded="false" />
+            <element signature="method#closeStatement#0;class#MYSQLManager#0" expanded="false" />
+            <element signature="method#closeConnection#0;class#MYSQLManager#0" expanded="false" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/nina/webCollector/controller/MainController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="43" column="2" selection-start-line="43" selection-start-column="2" selection-end-line="43" selection-end-column="2" />
+          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/nina/webCollector/webCollector/LLWebCollector.java">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
-          <caret line="10" column="0" selection-start-line="10" selection-start-column="0" selection-end-line="10" selection-end-column="0" />
+          <caret line="44" column="45" selection-start-line="44" selection-start-column="45" selection-end-line="44" selection-end-column="45" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/spring-mybatis.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="23" column="56" selection-start-line="23" selection-start-column="56" selection-end-line="23" selection-end-column="56" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/nina/webCollector/controller/MainController.java">
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/mvc-dispatcher-servlet.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.85530084">
-          <caret line="62" column="38" selection-start-line="62" selection-start-column="38" selection-end-line="62" selection-end-column="38" />
-          <folding>
-            <element signature="e#676#677#0" expanded="true" />
-            <element signature="e#706#707#0" expanded="true" />
-          </folding>
+        <state vertical-scroll-proportion="0.0">
+          <caret line="18" column="33" selection-start-line="18" selection-start-column="33" selection-end-line="18" selection-end-column="33" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/web.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.17609046">
+          <caret line="12" column="14" selection-start-line="12" selection-start-column="14" selection-end-line="12" selection-end-column="14" />
+          <folding />
         </state>
       </provider>
     </entry>
@@ -1506,7 +1895,7 @@
       </state>
       <state key="ModuleStructureConfigurable.UI">
         <settings>
-          <last-edited>demo</last-edited>
+          <last-edited>Spring|demo</last-edited>
           <splitter-proportions>
             <option name="proportions">
               <list>

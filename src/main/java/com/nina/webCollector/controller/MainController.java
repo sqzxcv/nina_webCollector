@@ -1,5 +1,6 @@
 package com.nina.webCollector.controller;
 
+import com.nina.webCollector.webCollector.LLWebCollector;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Controller;
 import org.springframework.web.bind.annotation.RequestMapping;
@@ -18,8 +19,6 @@ import com.zero.common.util.http.HttpClientUtil;
 @Controller
 public class MainController {
 
-    // 自动装配
-    @Autowired
 
     // 首页
     @RequestMapping(value = "/", method = RequestMethod.GET)
@@ -30,25 +29,27 @@ public class MainController {
 
     @RequestMapping(value="/presedocument")
     public void test(String url,HttpServletResponse response){
+//
+//        String str = HttpClientUtil.doGet("http://www.hao123.com");
+//
+//        //System.out.println("----"+str);
+//
+//
+//        //测试返回json
+//        Map<String,Object> map = new HashMap<String,Object>();
+//        map.put("test", "11");
+//        String json = JSON.toJSONString(map);
+//        response.setContentType("text/html;charset=utf-8");
+//        try{
+//
+//            response.getWriter().write(json);
+//            response.getWriter().flush();
+//            response.getWriter().close();
+//        }catch(Exception e){
+//            e.printStackTrace();
+//        }
 
-        String str = HttpClientUtil.doGet("http://www.hao123.com");
-
-        System.out.println("----"+str);
-
-
-        //测试返回json
-        Map<String,Object> map = new HashMap<String,Object>();
-        map.put("test", "11");
-        String json = JSON.toJSONString(map);
-        response.setContentType("text/html;charset=utf-8");
-        try{
-
-            response.getWriter().write(json);
-            response.getWriter().flush();
-            response.getWriter().close();
-        }catch(Exception e){
-            e.printStackTrace();
-        }
+        LLWebCollector.getInstance().addInstantJobWithURL("http://www.mutangxiaxia.com/2017/06/29/untitled-1498707091378/");
     }
 
 //    // 用户管理

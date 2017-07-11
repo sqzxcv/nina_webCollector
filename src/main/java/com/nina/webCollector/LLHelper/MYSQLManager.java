@@ -18,7 +18,13 @@ public class MYSQLManager{
 
     //创建数据库连接对象
     //默认的MySQL格式为 url = "jdbc:mysql://localhost:3306/nina?" + "user=root&password=Anhuiqiang851&useUnicode=true&characterEncoding=UTF8";
+    public  void getDefaultDBConnection() {
+
+        this.getConnection("jdbc:mysql://localhost:3306/nina?" + "user=root&password=Anhuiqiang851&useUnicode=true&characterEncoding=UTF8");
+    }
+
     public void getConnection(String url){
+
         //加载数据库驱动
         try{
             Class.forName("com.mysql.jdbc.Driver");
