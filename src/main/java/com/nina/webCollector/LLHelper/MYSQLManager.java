@@ -57,6 +57,9 @@ public class MYSQLManager{
         return stmt;
     }
 
+    public int create(String sqlCreate) {
+        return this.create(this.stmt,sqlCreate);
+    }
     //创建记录,即向数据库中插入数据[insert into table1(field1,field2) values(value1,value2)]
     public int create(Statement stmt,String sqlCreate){
         int nRecord=0;
@@ -121,6 +124,10 @@ public class MYSQLManager{
     }
 
     //关闭SQL语句执行对象
+    public void closeStatement() {
+        this.closeStatement(this.stmt);
+    }
+
     public void closeStatement(Statement stmt){
         try{
             stmt.close();
@@ -132,6 +139,11 @@ public class MYSQLManager{
     }
 
     //断开与数据库的连接
+    public void closeConnection() {
+
+        this.closeConnection(this.conn);
+    }
+
     public void closeConnection(Connection conn){
         try{
             conn.close();

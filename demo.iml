@@ -19,9 +19,6 @@
         <fileset id="web mvc-dispatcher servlet context" name="MVC mvc-dispatcher servlet context" removed="true">
           <file>file://$MODULE_DIR$/src/main/webapp/WEB-INF/mvc-dispatcher-servlet.xml</file>
         </fileset>
-        <fileset id="fileset2" name="spring-mybatis.xml" removed="false">
-          <file>file://$MODULE_DIR$/src/main/resources/spring-mybatis.xml</file>
-        </fileset>
       </configuration>
     </facet>
     <facet type="jpa" name="JPA">
