@@ -11,6 +11,7 @@ import java.util.Date;
 public class LLQuartzJob implements Job {
 
     public LLQuartzJob(String simpleTrigger, String triggerGroup1) {
+
     }
 
     public void execute(JobExecutionContext context) throws JobExecutionException {

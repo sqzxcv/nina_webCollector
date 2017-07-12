@@ -87,33 +87,33 @@ public class LLWebCollector {
 
     public void addJob2MonitorWebSiteNews(String url) {
 
-        //初始化一个Schedule工厂
-        SchedulerFactory schedulerFactory = new StdSchedulerFactory();
-        //通过schedule工厂类获得一个Scheduler类
-        Scheduler scheduler = schedulerFactory.getScheduler();
-        //通过设置job name, job group, and executable job class初始化一个JobDetail
-        JobDetail jobDetail = new JobDetail("jobDetail-s1","jobDetailGroup-s1", SimpleQuartzJob.class);
-        //设置触发器名称和触发器所属的组名初始化一个触发器
-        SimpleTrigger simpleTrigger = new LLQuartzJob("simpleTrigger","triggerGroup1");
-        //获取当前时间，初始化触发器的开始日期
-        long ctime = System.currentTimeMillis();
-        simpleTrigger.setStartTime(new Date(ctime));
-        //设置触发器触发运行的时间间隔(10 seconds here)
-        simpleTrigger.setRepeatInterval(10000);
-        //设置触发器触发运行的次数，这里设置运行100，完成后推出
-        simpleTrigger.setRepeatCount(100);
-        /**
-         * set the ending time of this job.
-         * We set it for 60 seconds from its startup time here
-         * Even if we set its repeat count to 10,
-         * this will stop its process after 6 repeats as it gets it endtime by then.
-         * **/
-        // simpleTrigger.setEndTime(new Date(ctime + 60000L));
-        //设置触发器的优先级，模式为5
-        // simpleTrigger.setPriority(10);
-        //交给调度器调度运行JobDetail和Trigger
-        scheduler.scheduleJob(jobDetail, simpleTrigger);
-        //启动调度器
-        scheduler.start();
+//        //初始化一个Schedule工厂
+//        SchedulerFactory schedulerFactory = new StdSchedulerFactory();
+//        //通过schedule工厂类获得一个Scheduler类
+//        Scheduler scheduler = schedulerFactory.getScheduler();
+//        //通过设置job name, job group, and executable job class初始化一个JobDetail
+////        JobDetail jobDetail = new JobDetail("jobDetail-s1","jobDetailGroup-s1", LLQuartzJob.class);
+//        //设置触发器名称和触发器所属的组名初始化一个触发器
+////        SimpleTrigger simpleTrigger = new SimpleTrigger("simpleTrigger","triggerGroup1");
+//        //获取当前时间，初始化触发器的开始日期
+//        long ctime = System.currentTimeMillis();
+//        simpleTrigger.setStartTime(new Date(ctime));
+//        //设置触发器触发运行的时间间隔(10 seconds here)
+//        simpleTrigger.setRepeatInterval(10000);
+//        //设置触发器触发运行的次数，这里设置运行100，完成后推出
+//        simpleTrigger.setRepeatCount(100);
+//        /**
+//         * set the ending time of this job.
+//         * We set it for 60 seconds from its startup time here
+//         * Even if we set its repeat count to 10,
+//         * this will stop its process after 6 repeats as it gets it endtime by then.
+//         * **/
+//        // simpleTrigger.setEndTime(new Date(ctime + 60000L));
+//        //设置触发器的优先级，模式为5
+//        // simpleTrigger.setPriority(10);
+//        //交给调度器调度运行JobDetail和Trigger
+//        scheduler.scheduleJob(jobDetail, simpleTrigger);
+//        //启动调度器
+//        scheduler.start();
     }
 }
