@@ -4,6 +4,8 @@ package com.nina.webCollector.LLHelper;
  * Created by shengqiang on 2017/7/10.
  */
 
+import cn.edu.hfut.dmic.contentextractor.News;
+
 import java.sql.Connection;
 import java.sql.DriverManager;
 import java.sql.ResultSet;
@@ -151,6 +153,31 @@ public class MYSQLManager{
         catch(SQLException e){
             System.out.println(e.toString());
             return;
+        }
+    }
+
+    public void saveNews2DB(News news) {
+
+        try {
+            String jv = "`jfd`";
+            this.getDefaultDBConnection();
+            this.getStatement();
+            int result = this.create(String.format("insert into document(url,content,news_time,contentHtml,title,collect_time) values('%s','%s',%d,'%s','%s',%d) " +
+                            "ON DUPLICATE KEY UPDATE content= '%s', news_time=%d,contentHtml='%s',title='%s',collect_time=%d",
+                    news.getUrl(),news.getContent(), DateUtil.date2TimeStamp(news.getTime(), "yyyy-MM-dd"),
+                    news.getContentElement().html(),news.getTitle(),DateUtil.timeStamp(),
+                    news.getContent(), DateUtil.date2TimeStamp(news.getTime(), "yyyy-MM-dd"),
+                    news.getContentElement().html(),news.getTitle(),DateUtil.timeStamp()));
+            if (result != 0) {
+                System.out.format("文章[%s]插入成功",news.getTitle());
+            } else {
+                System.out.format("文章[%s]插入失败",news.getTitle());
+            }
+            this.closeStatement();
+            this.closeConnection();
+
+        } catch (Exception e) {
+            e.printStackTrace();
         }
     }
 }

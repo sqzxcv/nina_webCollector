@@ -18,7 +18,7 @@ import javax.swing.text.html.parser.DocumentParser;
 /**
  * Created by shengqiang on 2017/7/9.
  */
-public class MonitorWebsiteNews extends BreadthCrawler {
+public class LLMonitorWebsiteNews extends BreadthCrawler {
 
     private DocumentMapper docMapper ;
     private TagmapMapper tagMapper ;
@@ -28,7 +28,7 @@ public class MonitorWebsiteNews extends BreadthCrawler {
      * @param crawlPath 爬虫路径
      * @param autoParse 是否自动解析
      */
-    public MonitorWebsiteNews(String crawlPath, boolean autoParse) throws FileNotFoundException {
+    public LLMonitorWebsiteNews(String crawlPath, boolean autoParse) throws FileNotFoundException {
         super(crawlPath, autoParse);
         // 逗号进行分割，字符编码为GBK
 
@@ -42,19 +42,13 @@ public class MonitorWebsiteNews extends BreadthCrawler {
         News news = null;
         try {
             news = ContentExtractor.getNewsByHtml(page.html(), page.url());
-            DocumentWithBLOBs doc = new DocumentWithBLOBs();
-            doc.setNewsTime((int)(long)DateUtil.date2TimeStamp(news.getTime(), "yyyy-MM-dd HH:mm:ss"));
-            doc.setTitle(news.getTitle());
-            doc.setUrl(news.getUrl());
-            doc.setContent(news.getContent());
-            doc.setContenthtml(news.getContentElement().html());
-
-            this.docMapper.insert(doc);
+            MYSQLManager mysqlManager = new MYSQLManager();
+            mysqlManager.saveNews2DB(news);
 
         } catch (Exception e) {
             e.printStackTrace();
         }
-        System.out.println(news);
+        System.out.println(String.format("-----ttile:%s",news.getTitle()));
 
 
     }

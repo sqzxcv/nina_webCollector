@@ -43,10 +43,10 @@ public class DateUtil {
      * 取得当前时间戳（精确到秒）
      * @return
      */
-    public static String timeStamp(){
-        long time = System.currentTimeMillis();
-        String t = String.valueOf(time/1000);
-        return t;
+    public static long timeStamp(){
+        long time = System.currentTimeMillis()/1000;
+        //String t = String.valueOf(time/1000);
+        return time;
     }
 
     public static void main(String[] args) {
