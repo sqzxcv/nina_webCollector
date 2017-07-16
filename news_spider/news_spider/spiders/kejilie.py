@@ -30,4 +30,4 @@ class KejijieSpider(CrawlSpider):
         item["content"] = dict["content"]
         item["url"] = response.url
         print("---------title===" + dict["title"] +"======")
-        yield item
+        return item
