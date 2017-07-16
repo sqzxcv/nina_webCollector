@@ -1,4 +1,4 @@
-*/*.pyc
+**/*.pyc
 data/ne.json
 data/news.db
 data/news.json
