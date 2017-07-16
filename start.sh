@@ -8,7 +8,7 @@ cd ../news_spider
 scrapy crawl kejilie
 #scrapy crawlall
 echo "Crawl Data Done."
-cd ../tools
-python preprocess.py
-cd ../web
-python main.py 1111
+# cd ../tools
+# python preprocess.py
+# cd ../web
+# python main.py 1111
