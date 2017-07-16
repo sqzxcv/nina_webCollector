@@ -15,15 +15,19 @@ class KejijieSpider(CrawlSpider):
     name = 'kejilie'
     allowed_domains = ['www.kejilie.com']
     rules = (Rule(SgmlLinkExtractor(allow=('http://www.kejilie.com/.*', )),
-                  callback='parse_page', follow=True),)
+                  callback='parsepage', follow=True),)
 
     def parsepage(self, response):
         print("-----------------page url:" + response.url)
+        urlparse = "http://localhost:8082/presedocument?url=" + response.url
+        print("------urlparse:"+urlparse)
         res = requests.get(
-            "http://localhost:8082/presedocument?" + response.url)
+            "http://localhost:8082/presedocument?url=" + response.url)
+        dict = res.json()
         item = NewsSpiderItem()
-        item["time"] = "jkf"
-        item["title"] = "test"
-        item["content"] = "test"
+        item["time"] = dict['news_times']
+        item["title"] = dict["title"]
+        item["content"] = dict["content"]
         item["url"] = response.url
+        print("---------title===" + dict["title"] +"======")
         yield item
