@@ -1,3 +1,4 @@
+*.pyc
 data/ne.json
 data/news.db
 data/news.json
@@ -6,4 +7,3 @@ data/cutnews
 data/orinews
 data/inversedata
 testdata/
-*.pyc
