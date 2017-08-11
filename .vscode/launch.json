@@ -7,17 +7,18 @@
             "request": "launch",
             "stopOnEntry": true,
             "pythonPath": "${config:python.pythonPath}",
-            "program": "~/.virtualenvs/scrapy/bin/scrapy",
-            "cwd": "${workspaceRoot}",
+            "program": "/usr/local/bin/scrapy",
+            "cwd": "${workspaceRoot}/news_spider",
             "args": [
                 "crawl",
-                "specs",
-                "-o",
-                "bikes.json"
+                "kejilie"
+                // "specs",
+                // "-o",
+                // "bikes.json"
             ],
             "console": "integratedTerminal",
             "env": {},
-            "envFile": "${workspaceRoot}/.env",
+            "envFile": "~/Env",
             "debugOptions": [
                 "WaitOnAbnormalExit",
                 "WaitOnNormalExit"
@@ -32,7 +33,7 @@
             "program": "${file}",
             "cwd": "${workspaceRoot}",
             "env": {},
-            "envFile": "${workspaceRoot}/.env",
+            "envFile": "~/Env",
             "debugOptions": [
                 "WaitOnAbnormalExit",
                 "WaitOnNormalExit",

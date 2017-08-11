@@ -49,7 +49,7 @@ class NewsSpiderPipeline(object):
             sql = sqltemp.substitute(title=item["title"], url=item["url"], content=item["content"],contentHtml=item["content"], news_time=self.convertTimeFromString(item["time"]), collect_time=int(time.time()))
             # print "~~~~~~~~~~~~~~sql=" + sql
             cursor.execute(sql)
-            print "插入新闻:"+ item["title"]
+            print "插入新闻:{0}".format(item['title'])
             conn.commit()
         except:
             import traceback

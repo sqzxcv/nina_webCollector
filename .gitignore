@@ -7,3 +7,5 @@ data/cutnews
 data/orinews
 data/inversedata
 testdata/
+pipelines.pyc
+ttsdata
