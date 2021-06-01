@@ -3,7 +3,7 @@ chardet==3.0.4
 idna==2.5
 jieba==0.38
 requests==2.18.1
-urllib3==1.21.1
+urllib3==1.26.5
 web.py==0.38
 asn1crypto==0.22.0
 astroid==1.5.3
